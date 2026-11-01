@@ -1,0 +1,23 @@
+# 解压出来的安装源（与仓库根目录的 student-learning-v1.0.0.zip 内容重复）
+/student-learning-v1.0.0/
+
+# Python 运行产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本地虚拟环境 / 安装目录（每台机器自行 setup）
+/runtime/
+/venv/
+/.venv/
+
+# 学习档案与识别产物，禁止提交（含学生隐私）
+/学习档案/
+/drafts/
+/backup/
+
+# 编辑器与系统文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
